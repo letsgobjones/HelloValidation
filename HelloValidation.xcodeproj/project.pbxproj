@@ -14,6 +14,8 @@
 		CAE26F112C33AF7F006FFA90 /* String+Exentsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F102C33AF7F006FFA90 /* String+Exentsions.swift */; };
 		CAE26F142C33BB7D006FFA90 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F132C33BB7D006FFA90 /* LoginError.swift */; };
 		CAE26F172C33BD49006FFA90 /* LoginState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F162C33BD49006FFA90 /* LoginState.swift */; };
+		CAE26F192C33C7FA006FFA90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F182C33C7FA006FFA90 /* ContentView.swift */; };
+		CAE26F1B2C33C88D006FFA90 /* ValidationSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F1A2C33C88D006FFA90 /* ValidationSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CAE26F102C33AF7F006FFA90 /* String+Exentsions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Exentsions.swift"; sourceTree = "<group>"; };
 		CAE26F132C33BB7D006FFA90 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
 		CAE26F162C33BD49006FFA90 /* LoginState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginState.swift; sourceTree = "<group>"; };
+		CAE26F182C33C7FA006FFA90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAE26F1A2C33C88D006FFA90 /* ValidationSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				CAE26F012C33AE8B006FFA90 /* HelloValidationApp.swift */,
+				CAE26F182C33C7FA006FFA90 /* ContentView.swift */,
 				CAE26F032C33AE8B006FFA90 /* LoginView.swift */,
+				CAE26F1A2C33C88D006FFA90 /* ValidationSummaryView.swift */,
 				CAE26F152C33BD36006FFA90 /* ViewModels */,
 				CAE26F122C33BB70006FFA90 /* Errors */,
 				CAE26F0F2C33AF71006FFA90 /* Extension */,
@@ -172,8 +178,10 @@
 			files = (
 				CAE26F142C33BB7D006FFA90 /* LoginError.swift in Sources */,
 				CAE26F112C33AF7F006FFA90 /* String+Exentsions.swift in Sources */,
+				CAE26F192C33C7FA006FFA90 /* ContentView.swift in Sources */,
 				CAE26F042C33AE8B006FFA90 /* LoginView.swift in Sources */,
 				CAE26F172C33BD49006FFA90 /* LoginState.swift in Sources */,
+				CAE26F1B2C33C88D006FFA90 /* ValidationSummaryView.swift in Sources */,
 				CAE26F022C33AE8B006FFA90 /* HelloValidationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,11 +9,18 @@ import Foundation
 
 
 
-enum LoginError: Error, LocalizedError {
+enum LoginError: Error, LocalizedError, Identifiable {
   case emailEmpty
   case emailInvalid
   case passwordEmpty
   case passwordInvalid
+  
+  
+  var id: Int {
+    hashValue
+  }
+  
+  
 
   var errorDescription: String {
     switch self {

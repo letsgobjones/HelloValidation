@@ -9,6 +9,7 @@ import Foundation
 
 struct LoginState {
   
+  
   var email: String = ""
   var password: String = ""
   var emailError: LoginError?
@@ -20,8 +21,7 @@ mutating func clearErrors() {
     emailError = nil
     passwordError = nil
   }
-  
-  
+
   mutating func isValid() -> Bool {
     clearErrors()
     
@@ -41,6 +41,16 @@ mutating func clearErrors() {
     
     
     
+  }
+  
+}
+
+
+extension LoginState {
+  
+  
+  static  var example: LoginState {
+    LoginState(email: "a@a.", password: "1234567", emailError: .emailEmpty, passwordError: .passwordInvalid)
   }
   
 }

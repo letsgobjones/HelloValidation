@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		CAE26F022C33AE8B006FFA90 /* HelloValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F012C33AE8B006FFA90 /* HelloValidationApp.swift */; };
-		CAE26F042C33AE8B006FFA90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F032C33AE8B006FFA90 /* ContentView.swift */; };
+		CAE26F042C33AE8B006FFA90 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F032C33AE8B006FFA90 /* LoginView.swift */; };
 		CAE26F062C33AE8B006FFA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE26F052C33AE8B006FFA90 /* Assets.xcassets */; };
 		CAE26F092C33AE8B006FFA90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE26F082C33AE8B006FFA90 /* Preview Assets.xcassets */; };
+		CAE26F112C33AF7F006FFA90 /* String+Exentsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F102C33AF7F006FFA90 /* String+Exentsions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CAE26EFE2C33AE8B006FFA90 /* HelloValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE26F012C33AE8B006FFA90 /* HelloValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloValidationApp.swift; sourceTree = "<group>"; };
-		CAE26F032C33AE8B006FFA90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAE26F032C33AE8B006FFA90 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CAE26F052C33AE8B006FFA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE26F082C33AE8B006FFA90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAE26F102C33AF7F006FFA90 /* String+Exentsions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Exentsions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				CAE26F012C33AE8B006FFA90 /* HelloValidationApp.swift */,
-				CAE26F032C33AE8B006FFA90 /* ContentView.swift */,
+				CAE26F032C33AE8B006FFA90 /* LoginView.swift */,
+				CAE26F0F2C33AF71006FFA90 /* Extension */,
 				CAE26F052C33AE8B006FFA90 /* Assets.xcassets */,
 				CAE26F072C33AE8B006FFA90 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				CAE26F082C33AE8B006FFA90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAE26F0F2C33AF71006FFA90 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CAE26F102C33AF7F006FFA90 /* String+Exentsions.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE26F042C33AE8B006FFA90 /* ContentView.swift in Sources */,
+				CAE26F112C33AF7F006FFA90 /* String+Exentsions.swift in Sources */,
+				CAE26F042C33AE8B006FFA90 /* LoginView.swift in Sources */,
 				CAE26F022C33AE8B006FFA90 /* HelloValidationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

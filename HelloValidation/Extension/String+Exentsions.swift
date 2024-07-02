@@ -16,3 +16,21 @@ extension String {
     return predicate.evaluate(with: self)
   }
 }
+
+
+
+
+extension String {
+    var isValidPassword: Bool {
+        // Password requirements:
+        // - At least 8 characters
+        // - At least one uppercase letter
+        // - At least one lowercase letter
+        // - At least one digit
+        // - At least one special character (e.g., !@#$%^&*)
+
+        let passwordRegex = "^(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[!@#$%^&*])[A-Za-z\\d!@#$%^&*]{8,}$"
+        let predicate = NSPredicate(format: "SELF MATCHES %@", passwordRegex)
+        return predicate.evaluate(with: self)
+    }
+}

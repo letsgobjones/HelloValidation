@@ -12,6 +12,7 @@
 		CAE26F062C33AE8B006FFA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE26F052C33AE8B006FFA90 /* Assets.xcassets */; };
 		CAE26F092C33AE8B006FFA90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE26F082C33AE8B006FFA90 /* Preview Assets.xcassets */; };
 		CAE26F112C33AF7F006FFA90 /* String+Exentsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F102C33AF7F006FFA90 /* String+Exentsions.swift */; };
+		CAE26F142C33BB7D006FFA90 /* LoginFormError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE26F132C33BB7D006FFA90 /* LoginFormError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CAE26F052C33AE8B006FFA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE26F082C33AE8B006FFA90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CAE26F102C33AF7F006FFA90 /* String+Exentsions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Exentsions.swift"; sourceTree = "<group>"; };
+		CAE26F132C33BB7D006FFA90 /* LoginFormError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				CAE26F012C33AE8B006FFA90 /* HelloValidationApp.swift */,
 				CAE26F032C33AE8B006FFA90 /* LoginView.swift */,
+				CAE26F122C33BB70006FFA90 /* Errors */,
 				CAE26F0F2C33AF71006FFA90 /* Extension */,
 				CAE26F052C33AE8B006FFA90 /* Assets.xcassets */,
 				CAE26F072C33AE8B006FFA90 /* Preview Content */,
@@ -76,6 +79,14 @@
 				CAE26F102C33AF7F006FFA90 /* String+Exentsions.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		CAE26F122C33BB70006FFA90 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				CAE26F132C33BB7D006FFA90 /* LoginFormError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE26F142C33BB7D006FFA90 /* LoginFormError.swift in Sources */,
 				CAE26F112C33AF7F006FFA90 /* String+Exentsions.swift in Sources */,
 				CAE26F042C33AE8B006FFA90 /* LoginView.swift in Sources */,
 				CAE26F022C33AE8B006FFA90 /* HelloValidationApp.swift in Sources */,

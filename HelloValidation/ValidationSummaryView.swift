@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ValidationSummaryView: View {
   
-  //  let errors: [LocalizedError]
-  //
+  
   @Binding var loginState: LoginState
   var body: some View {
     
